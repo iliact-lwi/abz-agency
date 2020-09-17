@@ -1,0 +1,16 @@
+.footer-block {
+    width: 100%;
+    border-top: 1px solid #e1e1e1;
+    font-family: 'Open Sans', sans-serif;
+    color: $text-color-grey;
+    font-size: 16px;
+    font-weight: 400;
+
+    .footer-text {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 1;
+    }
+}
+

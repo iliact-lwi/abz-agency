@@ -1,0 +1,9 @@
+export const SHOW_MORE_USERS = 'SHOW_MORE_USERS';
+export const SHOW_BUTTON = 'SHOW_BUTTON';
+export const GET_POSITIONS = 'GET_POSITIONS';
+export const SHOW_ALERT = 'SHOW_ALERT';
+export const HIDE_ALERT = 'HIDE_ALERT';
+export const POST_SUCCESS = 'POST_SUCCESS';
+export const POST_FAILED = 'POST_FAILED';
+export const CLEAR_USERS = 'CLEAR_USERS';
+export const SHOW_PROGRESS = 'SHOW_PROGRESS';

@@ -1,0 +1,40 @@
+// variables
+$main-color: #ef5b4c;
+$light-grey-color: rgba(199,209,212,1);
+$users-bg: #f9f9f3;
+$text-color-grey: #4c4b4b;
+$text-color-black:#212529;
+
+// custom fonts
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+// custom bootstrap styles
+@import './custom-bootstrap/custom.scss';
+
+// default styles
+@import './components/default.scss';
+
+// custom navbar styles
+@import './components/navbar.scss';
+
+// introduction styles
+@import './components/introduction.scss';
+
+// acquaintance styles
+@import './components/acquaintance.scss';
+
+// users styles
+@import './components/users.scss';
+
+// registration styles 
+@import './components/registration.scss';
+
+// footer styles
+@import './components/footer.scss';
+
+
+
+
+
+
+

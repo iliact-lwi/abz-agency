@@ -1,0 +1,25 @@
+$grid-breakpoints: (
+    xs: 0px,
+
+    sm: 512px,
+    
+    md: 832px,
+    
+    lg: 1200px
+);
+
+$container-max-widths: (
+    xs: 100%,
+    sm: 512px,
+    md: 768px,
+    lg: 1024px
+);
+
+$theme-colors: (
+   light: #ffffff
+);
+
+$primary: #ef5b4c;
+$light : #ffffff;
+
+@import "~bootstrap/scss/bootstrap";

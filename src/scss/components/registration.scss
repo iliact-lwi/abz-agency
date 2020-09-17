@@ -1,0 +1,182 @@
+.registration-block {
+    height: auto;
+    padding: 158px 0px 158px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: $text-color-black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .registration-progress-bar {
+        width: 467px;
+        margin-top: 30px;
+    }
+
+    .registration-alert {
+        width: 467px;
+    }
+
+    .registration-post-success {
+        width: 467px;
+    }
+
+    .registration-post-failed {
+        width: 467px;
+    }
+
+    .registration-preview {
+        padding-bottom: 35px;
+
+        .registration-title {
+            font-size: 50px;
+            line-height: 1;
+            text-align: center;
+            padding-bottom: 25px;
+        }
+
+        .registration-subtitle {
+            font-size: 16px;
+            text-align: center;
+            color: $text-color-grey;
+        }
+    }
+
+    .registration-inputs {
+        box-sizing: border-box;
+        width: 467px;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 16px;
+
+        .registrations-inputs-padding {
+            padding-bottom: 10px;
+        }
+
+        input::-webkit-input-placeholder {
+            color: #b2b9c0;
+            font-family: 'PT Sans', sans-serif;
+            font-size: 16px;
+        }
+
+        .registrations-open-sans {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+
+    .registration-checkboxs {
+        width: 467px;
+        font-size: 16px;
+        font-family: 'PT Sans', sans-serif;
+
+        .registration-checkboxs-title {
+            padding-bottom: 15px;
+        }
+
+        #position1 {
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+            
+        }
+
+        #position2 {
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+
+        }
+
+        #position3 {
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+            
+        }
+
+        #position4 {
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+
+        }
+
+        .form-check-label {
+            padding-left: 6px;
+            padding-bottom: 8px;
+            cursor: pointer;
+        }
+    }
+
+    .registration-file {
+        font-size: 16px;
+        font-family: 'PT Sans', sans-serif;
+        width: 467px;
+
+        .registration-file-title {
+            padding-bottom: 10px;
+        }
+
+        // .registration-file-input {
+
+        // }   
+    }
+
+    .registration-button {
+        padding-top: 40px;
+
+        .registration-button-input {
+            width: 210px;
+        }
+    } 
+}   /*media*/
+@media (max-width: 1199px) {
+    .registration-block {
+    
+        .registration-preview {
+            .registration-title {
+                font-size: 40px;
+            }
+        }
+    }    
+}   /*media*/
+@media (max-width: 831px) {
+    .registration-block {
+        height: auto;
+        padding: 80px 0px 89px 0px;
+
+        .registration-alert {
+            width: 330px;
+        }
+
+        .registration-post-success {
+            width: 330px;
+        }
+
+        .registration-post-failed {
+            width: 330px;
+        }
+    
+        .registration-preview {
+    
+            .registration-title {
+                font-size: 30px;
+                padding-bottom: 17px;
+            }
+        }
+    
+        .registration-inputs {
+            width: 330px;
+        }
+    
+        .registration-checkboxs {
+            width: 330px;
+        }
+    
+        .registration-file {
+            width: 330px;
+        }
+    }
+}
